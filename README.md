@@ -1,4 +1,4 @@
-# QadWikiFix
+# QadWikiOpt
 Some quick and dirty CSS changes to optimize my personal Wikipedia experience.
 
 This CSS does the following:
