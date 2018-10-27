@@ -13,6 +13,8 @@
 #p-personal,
 #coll-create_a_book,
 #footer,
+#p-navigation > * > * > *:not(#n-randompage),
+#p-interaction,
 #mw-head > * > * > *:not(#searchform) > *:not(#ca-history){
     display: none !important;
 }
@@ -45,8 +47,6 @@
 #p-namespaces{
     background-image: unset !important;
 }
-
-
 
 #mw-panel {
     position: fixed;
@@ -84,9 +84,10 @@
 }
 
 #content {
+    position: relative;
     top: -60px;
     max-width: 800px;
-    left: 50%;
+    left: 50% !important;
     margin-left: -400px;
     border-left: none;
 }
