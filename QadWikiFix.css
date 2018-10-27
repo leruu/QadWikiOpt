@@ -1,3 +1,4 @@
+/*#mw-head,*/
 #p-logo,
 #mw-panel > * > h3,
 #p-lang li:not(.interwiki-en):not(.interwiki-de):not(.interwiki-ru)[class*=interwiki],
@@ -39,7 +40,9 @@
     height: 14px;
 }
 
-#ca-history > * {
+#ca-history > *,
+#p-cactions-label,
+#p-namespaces{
     background-image: unset !important;
 }
 
