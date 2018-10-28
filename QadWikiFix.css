@@ -1,4 +1,3 @@
-/*#mw-head,*/
 #p-logo,
 #mw-panel > * > h3,
 #p-lang li:not(.interwiki-en):not(.interwiki-de):not(.interwiki-ru)[class*=interwiki],
@@ -26,6 +25,10 @@
 #mw-page-base,
 #p-views {
     background: unset !important;
+}
+
+#mw-head {
+    height: 0;
 }
 
 #searchform {
