@@ -1,7 +1,7 @@
 # QadWikiOpt
 Some quick and dirty CSS changes to optimize my personal Wikipedia experience.
 It provides easy access to my usually used menu options and the search.
-Also I find it easier to read.
+Also I find it easier to read, because of shorter lines, without the need of scaling the window.
 
 # Changes
 * Sets the maximum content width to 780px
