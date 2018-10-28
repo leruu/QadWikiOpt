@@ -1,3 +1,4 @@
+/*#mw-head,*/
 #p-logo,
 #mw-panel > * > h3,
 #p-lang li:not(.interwiki-en):not(.interwiki-de):not(.interwiki-ru)[class*=interwiki],
@@ -24,11 +25,11 @@
     top: -12px;
     right: 4px;
     z-index: 99999;
-    width: 123px;
+    width: 210px;
 }
 
 #simpleSearch {
-    width: 100px !important;
+    width: 187px !important;
 }
 
 #ca-history {
@@ -37,7 +38,7 @@
     border: unset !important;
     position: fixed;
     top: -8px;
-    right: 126px;
+    right: 220px;
     height: 14px;
 }
 
