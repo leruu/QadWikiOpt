@@ -12,8 +12,9 @@ Also I find it easier to read, because of shorter lines, without the need of sca
 * Removes a footer
 
 # Usage
+* Install Stylus
 * Create a new Stylus style
-* Copy the contents of QadWikiFix.css to the style
+* Copy the contents of QadWikiFix.css
 * Click on "import", paste the contents and click overwrite
 * Name the style
 * Save it
