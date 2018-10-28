@@ -9,6 +9,7 @@ Also I find it easier to read, because of shorter lines, without the need of sca
 * Centers the content
 * Reduces the menus to less options
 * Puts the menu and search to the top of the screen
+* Removes a footer
 
 # Usage
 * Create a new Stylus style
