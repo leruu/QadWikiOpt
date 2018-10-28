@@ -14,7 +14,7 @@ Also I find it easier to read, because of shorter lines, without the need of sca
 # Usage
 * Create a new Stylus style
 * Copy the contents of QadWikiFix.css to the style
-* Set for URLs on the domain "wikipedia.org"
-* Give it a name
+* Click on "import", paste the contents and click overwrite
+* Name the style
 * Save it
-* Enjoy
+* Enjoy Wikipedia
