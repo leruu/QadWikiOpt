@@ -19,6 +19,15 @@
     display: none !important;
 }
 
+#ca-history > *,
+#p-cactions-label,
+#p-namespaces,
+#mw-panel .portal .body,
+#mw-page-base,
+#p-views {
+    background: unset !important;
+}
+
 #searchform {
     display: block !important;
     position: fixed;
@@ -42,11 +51,6 @@
     height: 14px;
 }
 
-#ca-history > *,
-#p-cactions-label,
-#p-namespaces{
-    background-image: unset !important;
-}
 
 #mw-panel {
     position: fixed;
@@ -65,10 +69,6 @@
     content: '\00a0';
 }
 
-#mw-panel .portal .body,
-#p-views {
-    background-image: none;
-}
 
 #mw-panel #p-logo + .portal {
     margin-top: 0;
