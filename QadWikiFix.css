@@ -1,3 +1,4 @@
+@-moz-document domain("wikipedia.org") {
 #p-logo,
 #mw-panel > * > h3,
 #p-lang li:not(.interwiki-en):not(.interwiki-de):not(.interwiki-ru)[class*=interwiki],
@@ -54,7 +55,6 @@
     right: 220px;
     height: 14px;
 }
-
 
 #mw-panel {
     position: fixed;
@@ -114,4 +114,5 @@
     #mw-panel {
         height: 68px;
     }
+}
 }
