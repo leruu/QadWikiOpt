@@ -1,4 +1,4 @@
-@-moz-document domain("wikipedia.org") {
+@-moz-document url-prefix("https://de.wikipedia.org/wiki/"), url-prefix("https://en.wikipedia.org/wiki/"), url-prefix("https://ru.wikipedia.org/wiki/") {
 #p-logo,
 #mw-panel > * > h3,
 #p-lang li:not(.interwiki-en):not(.interwiki-de):not(.interwiki-ru):not(.interwiki-ja)[class*=interwiki],
