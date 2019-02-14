@@ -97,7 +97,7 @@
     border-left: none;
 }
 
-.badge-goodarticle, .badge-goodlist, .badge-recommendedarticle {
+.badge-goodarticle, .badge-goodlist, .badge-recommendedarticle, .badge-featuredarticle {
     list-style-image: unset !important;
 }
 
