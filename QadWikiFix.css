@@ -1,4 +1,9 @@
 @-moz-document domain("wikipedia.org") {
+:root {
+    --bgcol: #252a33;
+    --bgcol: #fff;
+}
+
 #p-logo,
 #mw-panel > * > h3,
 #p-lang li:not(.interwiki-en):not(.interwiki-de):not(.interwiki-ru):not(.interwiki-ja)[class*=interwiki],
@@ -63,7 +68,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    background: #252a33;
+    background: var(--bgcol);
     border-bottom: 1px solid black;
 }
 
