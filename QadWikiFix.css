@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://de.wikipedia.org/wiki/"), url-prefix("https://en.wikipedia.org/wiki/"), url-prefix("https://ru.wikipedia.org/wiki/") {
+@-moz-document domain("wikipedia.org") {
 #p-logo,
 #mw-panel > * > h3,
 #p-lang li:not(.interwiki-en):not(.interwiki-de):not(.interwiki-ru):not(.interwiki-ja)[class*=interwiki],
@@ -44,6 +44,7 @@
 
 #simpleSearch {
     width: 187px !important;
+    background: unset;
 }
 
 #ca-history {
@@ -61,9 +62,8 @@
     top: 0;
     left: 0;
     right: 0;
-    padding: 0;
     width: 100%;
-    background: white;
+    background: #252a33;
     border-bottom: 1px solid black;
 }
 
@@ -91,17 +91,17 @@
 #content {
     position: relative;
     top: -60px;
-    max-width: 600px;
+    max-width: 780px;
     left: 50% !important;
-    margin-left: -316px;
+    margin-left: -405px;
     border-left: none;
 }
 
-.badge-goodarticle, .badge-goodlist, .badge-recommendedarticle, .badge-featuredarticle {
+.badge-goodarticle {
     list-style-image: unset !important;
 }
 
-@media only screen and (max-width: 644px) {
+@media only screen and (max-width: 830px) {
     #ca-history {
         top: 25px;
     }
@@ -111,6 +111,7 @@
         margin: 0;
         margin-left: 0 !important;
         padding-left: 10px;
+        
     }
     #searchform {
         top: 23px;
@@ -119,4 +120,5 @@
         height: 68px;
     }
 }
+
 }
