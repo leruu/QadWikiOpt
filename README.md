@@ -1,3 +1,5 @@
+# [This is now part of my other styles and everything repo.](https://github.com/myphs/software-settings-stylesheets-userscripts-autohotkey-etc)
+
 # QadWikiOpt
 Some quick and dirty CSS changes to optimize my personal Wikipedia experience.
 
